@@ -31,13 +31,13 @@ const Newsletter = () => {
                                     name="email"
                                     id="email"
                                     placeholder="Enter email address"
-                                    className="block w-full py-4 pl-10 pr-4 text-base text-white placeholder-gray-200 transition-all duration-200 border-gray-100 rounded-md sm:rounded-r-none caret-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                                    className="block w-full py-4 pl-10 pr-4 text-base text-white placeholder-gray-200 transition-all duration-200 border-1 border-gray-50 rounded-md sm:rounded-r-none caret-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                                     required
                                 />
                             </div>
                         </div>
 
-                        <button type="submit" className="inline-flex items-center justify-center flex-shrink-0 w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:mt-0 sm:rounded-l-none sm:w-auto hover:bg-blue-700 focus:bg-blue-700">
+                        <button type="submit" className="inline-flex items-center justify-center flex-shrink-0 w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:mt-0 sm:rounded-l-none text-sm md:text-base sm:w-auto hover:bg-blue-700 focus:bg-blue-700">
                             Get instant access
                         </button>
                     </div>

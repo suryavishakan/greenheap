@@ -23,7 +23,7 @@ const Farms = () => {
                             </p>
                         </div>
                         <div className="flex justify-left md:justify-center gap-3 mt-10 lg:justify-start">
-                            <a className="inline-flex items-center justify-center text-sm font-semibold text-slate-200 duration-200 hover:text-orange-400 focus:outline-none focus-visible:outline-orange-400 hover:border-b-1 hover:border-orange-500" href="https://greenheapfoods.com/" target = "_blank" rel="noreferrer">
+                            <a className="inline-flex items-center justify-center text-sm font-semibold text-slate-200 duration-200 hover:text-orange-400 focus:outline-none focus-visible:outline-orange-400 hover:border-b-1 hover:border-orange-500" href="https://www.cashbackfarms.com/" target = "_blank" rel="noreferrer">
                             <span> Visit site &nbsp; → </span>
                             </a>
                         </div>

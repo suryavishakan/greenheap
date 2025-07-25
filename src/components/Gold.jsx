@@ -23,7 +23,7 @@ const Gold = () => {
                 </p>
                 </div>
                 <div className="flex justify-end md:justify-end gap-3 mt-10 lg:justify-end">
-                <a className="inline-flex items-center justify-center text-sm font-semibold text-gray-100 duration-200 hover:text-orange-400 focus:outline-none focus-visible:outline-orange-400 hover:border-b-1 hover:border-orange-500" href="https://greenheapdigigold.com/" target="_blank" rel="noreferrer">
+                <a className="inline-flex items-center justify-center text-sm font-semibold text-gray-100 duration-200 hover:text-orange-400 focus:outline-none focus-visible:outline-orange-400 hover:border-b-1 hover:border-orange-500" href="https://greenheapgold.com/" target="_blank" rel="noreferrer">
                     <span> Visit site &nbsp; → </span>
                 </a>
                 </div>

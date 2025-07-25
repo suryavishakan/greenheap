@@ -5,7 +5,7 @@ const InvestingSteps = () => {
     <section className="py-10">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-3xl font-bold leading-tight text-black sm:text-2xl lg:text-3xl">How you can start?</h2>
+                <h2 className="font-bold leading-tight text-black text-xl lg:text-3xl">How you can start?</h2>
             </div>
 
             <ul className="max-w-3xl mx-auto mt-16 space-y-12">
@@ -18,7 +18,7 @@ const InvestingSteps = () => {
                         </svg>
                     </div>
                     <div className="ml-6">
-                        <h3 className="text-lg font-semibold text-black">Sign up on GreenheapGold.</h3>
+                        <h3 className="text-md md:text-lg font-semibold text-black">Sign up on GreenheapGold.</h3>
                     </div>
                 </li>
 
@@ -31,7 +31,7 @@ const InvestingSteps = () => {
                         </svg>
                     </div>
                     <div className="ml-6">
-                        <h3 className="text-lg font-semibold text-black">Choose how much gold you want to buy — even a few dollars’ worth.</h3>
+                        <h3 className="text-md md:text-lg font-semibold text-black">Choose how much gold you want to buy — even a few dollars’ worth.</h3>
                     </div>
                 </li>
 
@@ -44,7 +44,7 @@ const InvestingSteps = () => {
                        </svg>
                     </div>
                     <div className="ml-6">
-                        <h3 className="text-lg font-semibold text-black">Watch your gold grow securely in your digital vault, with full ownership rights.</h3>
+                        <h3 className="text-md md:text-lg font-semibold text-black">Watch your gold grow securely in your digital vault, with full ownership rights.</h3>
                     </div>
                 </li>
 
@@ -55,7 +55,7 @@ const InvestingSteps = () => {
                         </svg>
                     </div>
                     <div className="ml-6">
-                        <h3 className="text-lg font-semibold text-black">Sell or convert to cash whenever you want.</h3>
+                        <h3 className="text-md md:text-lg font-semibold text-black">Sell or convert to cash whenever you want.</h3>
                     </div>
                 </li>
             </ul>

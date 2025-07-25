@@ -1,7 +1,7 @@
 import React from 'react';
 const Legacy = () => {
     return (
-      <div className="text-left py-16 bg-emerald-950">
+      <div className="text-left py-16 bg-emerald-950" id = "legacy">
           <div className='sm:px-28'>
               <section className="relative flex items-center w-full">
                   <div className="relative items-center w-full px-5 mx-auto md:px-12 lg:px-16 max-w-7xl">
@@ -10,8 +10,8 @@ const Legacy = () => {
                         <div className="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
                             <div className="max-w-xl text-center lg:text-left">
                                 <div>
-                                    <p class="text-white text-4xl sm:text-6xl font-semibold tracking-tighter">
-                                        Building Tomorrow's<span class="bg-clip-text bg-linear-to-tl from-yellow-200 to-orange-500 text-transparent"> Legacy</span>
+                                    <p className="text-white text-4xl sm:text-6xl font-semibold tracking-tighter">
+                                        Building Tomorrow's<span className="bg-clip-text bg-linear-to-tl from-yellow-200 to-orange-500 text-transparent"> Legacy</span>
                                     </p>
                                     <p className="max-w-xl mt-4 text-base tracking-tight text-gray-100">
                                     GreenHeap Enterprises is a modern, impact-driven collective committed to enhancing everyday life through accessible innovation. Our purpose is to support individuals and families in reaching their goals—whether that means acquiring land, building financial security, or embracing healthier habits. 
