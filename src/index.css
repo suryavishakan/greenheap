@@ -6,18 +6,20 @@
 
 @font-face {
   font-family: 'Agrandir';
-  src: url('/Users/suryavishakan/Documents/Greenheap/greenheap-enterprises/src/fonts/Agrandir-Regular.otf') format('woff2');
+  src: url('/fonts/Agrandir-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 
 html{
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Agrandir", "Poppins" monospace;
+  font-family: "Agrandir", "Poppins", monospace;
 }
+
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
