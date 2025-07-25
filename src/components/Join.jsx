@@ -7,10 +7,10 @@ const Join = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
-            opacity: 25
+            opacity: 75
         }
   return (
-    <section className="py-10 bg-emerald-950 sm:py-16 lg:py-24 bg-blend-multiply" style = {backgroundStyle}>
+    <section className="py-10 bg-neutral-800 sm:py-16 lg:py-24 bg-blend-overlay" style = {backgroundStyle}>
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="text-center">
                 <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Join Our Journey</h2>

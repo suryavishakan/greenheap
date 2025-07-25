@@ -5,7 +5,7 @@ const Leadership = () => {
     <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
-                <p className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Leadership and Commitment</p>
+                <p className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Leadership and <span className='bg-clip-text bg-linear-to-tl from-teal-700 to-teal-500 text-transparent'>Commitment</span></p>
                 <p className="text-sm font-semibold tracking-widest text-slate-800">Our leadership team brings decades of combined experience and unwavering commitment to excellence across all business verticals.</p>
             </div>
 

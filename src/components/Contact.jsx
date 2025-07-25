@@ -37,7 +37,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-10 bg-[url('https://di.adsdev1.site/wp-content/uploads/2022/09/deep-3.png')] sm:py-16 lg:py-24">
+    <section className="py-10 bg-orange-50 sm:py-16 lg:py-24" id = "contact">
       <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
           <div className="flex flex-col justify-between lg:py-5">
@@ -47,11 +47,6 @@ const Contact = () => {
                 From flavorful kitchens to gold savings and fertile lands, Greenheap Enterprises is here to bring your dreams to life.
                 Reach out to begin your journey with us.
               </p>
-              <img
-                className="hidden w-full translate-x-24 translate-y-8 md:block"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/contact/4/curve-line.svg"
-                alt=""
-              />
             </div>
             <div className="hidden md:block md:mt-auto">
               <div className="flex items-center">
@@ -79,12 +74,14 @@ const Contact = () => {
           </div>
 
           <div className="lg:pl-12">
-            <div className="bg-white rounded-md overflow-hidden shadow-md">
+            <div className="bg-gray-50 rounded-md overflow-hidden shadow-md">
               <div className="p-6 sm:p-10">
                 <h3 className="text-3xl font-semibold text-black">Start a conversation</h3>
                 <p className="mt-4 text-base text-gray-800">
                   Let us know what you're interested in, and we’ll guide you to the right team.
                 </p>
+
+                
 
                 <form ref={formRef} onSubmit={handleSubmit} className="mt-6 space-y-6">
                   <input type="hidden" name="_captcha" value="false" />
@@ -142,7 +139,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full px-4 py-4 font-semibold text-white bg-orange-400 rounded-md hover:bg-blue-600"
+                      className="w-full px-4 py-4 font-semibold text-white bg-orange-500 rounded-md hover:bg-orange-400"
                     >
                       Send Message
                     </button>

@@ -2,11 +2,11 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
+    <div className="px-8 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-orange-50">
+        <div className="container ms-auto grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
             <div className="lg:col-span-4">
             <div className="lg:pe-6 xl:pe-12">
-                <p className="text-6xl font-bold leading-10 text-teal-600">
+                <p className="text-4xl md:text-6xl font-bold leading-10 text-teal-800">
                 92%
                 <span className="ms-1 inline-flex items-center gap-x-1 bg-gray-200 font-medium text-gray-800 text-xs leading-4 rounded-full py-0.5 px-2 dark:bg-neutral-800 dark:text-neutral-300">
                     <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -22,15 +22,15 @@ const Stats = () => {
             <div className="grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-3 sm:gap-8">
             
                 <div>
-                <p className="text-3xl font-semibold text-amber-600">99.95%</p>
+                <p className="text-2xl md:text-3xl font-semibold text-amber-700">99.95%</p>
                 <p className="mt-1 text-gray-500 dark:text-neutral-500">in fulfilling trust</p>
                 </div>
                 <div>
-                <p className="text-3xl font-semibold text-indigo-700">200+</p>
+                <p className="text-2xl md:text-3xl font-semibold text-indigo-900">200+</p>
                 <p className="mt-1 text-gray-500 dark:text-neutral-500">partners with Greenheap</p>
                 </div>
                 <div>
-                <p className="text-3xl font-semibold text-pink-600">85%</p>
+                <p className="text-2xl md:text-3xl font-semibold text-pink-800">85%</p>
                 <p className="mt-1 text-gray-500 dark:text-neutral-500">this month alone</p>
                 </div>             
             </div>

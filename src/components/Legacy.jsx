@@ -1,14 +1,5 @@
 import React from 'react';
-import backgroundImage from "../assets/5.png";
-
 const Legacy = () => {
-  const backgroundStyle = {
-      backgroundImage : `url(${backgroundImage})`,
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-    }
-  
     return (
       <div className="text-left py-16 bg-emerald-950">
           <div className='sm:px-28'>
@@ -20,7 +11,7 @@ const Legacy = () => {
                             <div className="max-w-xl text-center lg:text-left">
                                 <div>
                                     <p class="text-white text-4xl sm:text-6xl font-semibold tracking-tighter">
-                                        Building Tomorrow's<span class="underline leading-8 underline-offset-8	decoration-8 decoration-[#FFBF00]"> Legacy</span>
+                                        Building Tomorrow's<span class="bg-clip-text bg-linear-to-tl from-yellow-200 to-orange-500 text-transparent"> Legacy</span>
                                     </p>
                                     <p className="max-w-xl mt-4 text-base tracking-tight text-gray-100">
                                     GreenHeap Enterprises is a modern, impact-driven collective committed to enhancing everyday life through accessible innovation. Our purpose is to support individuals and families in reaching their goals—whether that means acquiring land, building financial security, or embracing healthier habits. 

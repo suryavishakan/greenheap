@@ -2,9 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://di.adsdev1.site/wp-content/uploads/2022/09/deep-3.png')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-1 before:transform before:-translate-x-1/2">
+    <div className="relative overflow-hidden before:absolute bg-orange-50">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        
             <div className="flex justify-center">
                 <a className="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 ps-3 rounded-full transition hover:border-gray-300 focus:outline-hidden focus:border-gray-300" href="#">
                     Explore our journery
@@ -16,7 +15,7 @@ const About = () => {
             <div className="mt-5 max-w-2xl text-center mx-auto">
                 <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl">
                     Our Story of
-                    <span className="bg-clip-text bg-linear-to-tl from-green-600 to-teal-700 text-transparent"> Sustainable Growth</span>
+                    <span className="bg-clip-text bg-linear-to-tl from-green-600 to-teal-900 text-transparent"> Sustainable Growth</span>
                 </h1>
             </div>
 

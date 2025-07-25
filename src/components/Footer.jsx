@@ -4,11 +4,11 @@ import logo from "../assets/navLogo.png";
 const Footer = () => {
 
   return (
-    <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24 bg-red-800">
+    <section className="py-10 sm:pt-16 lg:pt-24 bg-emerald-950">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
                 <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-                    <img className="w-auto h-16" src={logo} alt="logo" />
+                    <img className="w-auto h-8 md:j-12" src={logo} alt="logo" />
                     <p className="text-base leading-relaxed text-slate-100 mt-7">Connecting you to trusted solutions in food, real estate, and gold investment—all under one roof.</p>
                 </div>
 
@@ -53,11 +53,11 @@ const Footer = () => {
 
                     <form action="#" method="POST" className="mt-6">
                         <div>
-                            <label for="email" className="sr-only">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Enter your email" className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
+                            <label htmlFor="email" className="sr-only">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-orange-200 rounded-md focus:outline-none focus:border-orange-600 caret-orange-600" />
                         </div>
 
-                        <button type="submit" className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-orange-400 rounded-md hover:bg-[#FFBF00] focus:bg-[#FFBF00] cursor-pointer">Subscribe</button>
+                        <button type="submit" className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-orange-500 rounded-md hover:bg-orange-400 focus:bg-orange-400 cursor-pointer">Subscribe</button>
                     </form>
                 </div>
             </div>

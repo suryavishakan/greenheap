@@ -6,6 +6,7 @@ import Home from "./pages/Homepage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Blog from './pages/Blog';
+// blogs
 import BlogPost from "./components/BlogPost";
 import GoldBlogPost from './components/GoldBlogPost';
 import FoodsBlogPost from './components/FoodsBlogPost';

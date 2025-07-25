@@ -21,11 +21,10 @@ const Address = () => {
 
                     <div className="grow">
                     <p className="text-sm text-gray-600">
-                        United Kingdom
+                        United States
                     </p>
                     <address className="mt-1 text-black not-italic">
-                        300 Bath Street, Tay House<br />
-                        Glasgow G2 4JR
+                        325 S 1st St, 200, San Jose, California, 95113, United States of America.
                     </address>
                     </div>
                 </div>
@@ -47,7 +46,7 @@ const Address = () => {
                     </p>
                     <p>
                         <a className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black" href="mailto:example@site.so">
-                        hello@example.so
+                        greenheapenterprises@gmail.com
                         </a>
                     </p>
                     </div>
@@ -62,7 +61,7 @@ const Address = () => {
                     </p>
                     <p>
                         <a className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black" href="mailto:example@site.so">
-                        +44 222 777-000
+                        +1 (408) 334-1433
                         </a>
                     </p>
                     </div>

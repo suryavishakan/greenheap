@@ -11,7 +11,7 @@ const FoodsBlogPost = () => {
     <>
     <Navbar />
     <div className="max-w-7xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
-    <div className="max-w-5xl mx-auto text-justify">
+    <div className="max-w-4xl mx-auto text-justify">
         <p className='mb-10 text-sm text-gray-800'>
         <Link to = "/blog">&lt; Go Back</Link>
         </p>
@@ -26,19 +26,19 @@ const FoodsBlogPost = () => {
                 <p className="text-lg text-gray-800">Here’s why they work (and why more people are switching to them).</p>
             </div>
             {/*  */}
-            <p className="text-lg font-black">1. Clarity Over Guesswork</p>
+            <p className="text-xl font-black">1. Clarity Over Guesswork</p>
             <p className="text-lg text-gray-800">Most of us underestimate how much we eat. Calorie-based meal plans give you clear control over portions and energy intake, helping you stay on track whether your goal is weight loss, muscle gain, or simply maintaining a healthy lifestyle.</p>
             {/*  */}
-            <p className="text-lg font-black">2. Perfect for Busy Schedules</p>
+            <p className="text-xl font-black">2. Perfect for Busy Schedules</p>
             <p className="text-lg text-gray-800">With pre-designed, calorie-counted meals from GreenheapFoods, you don’t have to spend hours planning or cooking. Each meal is curated to meet your daily energy needs — so you can eat healthy even on your busiest days.</p>
             {/*  */}
-            <p className="text-lg font-black">3. Helps with Weight Management (Without Starving)</p>
+            <p className="text-xl font-black">3. Helps with Weight Management (Without Starving)</p>
             <p className="text-lg text-gray-800">Unlike crash diets, calorie-based plans are about balance, not restriction. You still enjoy your favorite foods — just in the right portions — so you feel satisfied while moving toward your health goals.</p>
             {/*  */}
-            <p className="text-lg font-black">4. Tailored to Your Body</p>
+            <p className="text-xl font-black">4. Tailored to Your Body</p>
             <p className="text-lg text-gray-800">Everyone’s needs are different. GreenheapFoods uses tools like BMI calculators and nutritional analysis to customize meal plans based on your body type and activity level, making sure your meals work for you, not against you.</p>
             {/*  */}
-            <p className="text-lg font-black">5. Better Energy, Better Focus</p>
+            <p className="text-xl font-black">5. Better Energy, Better Focus</p>
             <p className="text-lg text-gray-800">Eating the right calories helps avoid sugar crashes and fatigue. With balanced nutrition, you’ll notice better energy, focus, and productivity throughout the day.</p>
         </div>
         

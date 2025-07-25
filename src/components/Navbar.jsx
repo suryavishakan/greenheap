@@ -1,47 +1,37 @@
-// Home.jsx
-import React, { useRef } from 'react';
+// Navbar.jsx
+import React, { useState } from 'react';
 import logo from "../assets/navLogo.png";
-// react router
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  const groupRef = useRef(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleClick = () => {
-    if (groupRef.current) {
-      groupRef.current.classList.toggle("open");
-    }
+    setMenuOpen((prev) => !prev);
   };
 
   return (
-    <div className='bg-red-800'>
-      <header className="container flex flex-col mx-auto bg-red-800">
-        <nav
-          ref={groupRef}
-          className="px-4 md:px-0 relative flex flex-wrap items-center justify-between w-full bg-red-800 group py-5 shrink-0"
-        >
-          <Link to = "/">
-            <img
-              className="h-10"
-              src = {logo}
-              alt="logo"
-            />
+    <div className='bg-emerald-950'>
+      <header className="container flex flex-col mx-auto bg-emerald-950">
+        <nav className="px-4 md:px-0 relative flex flex-wrap items-center justify-between w-full bg-emerald-950 py-4 shrink-0">
+          <Link to="/">
+            <img className="h-7 md:h-10" src={logo} alt="logo" />
           </Link>
-          <div className="items-center justify-between hidden gap-12 text-black md:flex">
-            <Link to = "/" className="text-sm md:text-base font-bold text-white hover:text-slate-200" href="#">
+          <div className="items-center justify-between hidden gap-12 text-slate-100 md:flex">
+            <Link to="/" className="text-sm md:text-base font-bold hover:text-orange-500 hover:border-b-1 hover:border-orange-500">
               Home
             </Link>
-            <Link to = "/about" className="text-sm md:text-base font-bold text-white hover:text-slate-200" href="#">
+            <Link to="/about" className="text-sm md:text-base font-bold hover:text-orange-500 hover:border-b-1 hover:border-orange-500">
               About Us
             </Link>
-            <Link to ='/blog' className="text-sm md:text-base font-bold text-white hover:text-slate-200" href="#">
+            <Link to='/blog' className="text-sm md:text-base font-bold hover:text-orange-500 hover:border-b-1 hover:border-orange-500">
               Blog
             </Link>
-            <Link to = '/contact' className="text-sm md:text-base font-bold text-white hover:text-slate-200" href="#">
+            <Link to='/contact' className="text-sm md:text-base font-bold hover:text-orange-500 hover:border-b-1 hover:border-orange-500">
               Contact
             </Link>
           </div>
-          <button onClick={handleClick} className="flex md:hidden">
+          <button onClick={handleClick} className="flex md:hidden cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -55,17 +45,22 @@ const Navbar = () => {
               ></path>
             </svg>
           </button>
-          <div className="absolute flex md:hidden transition-all duration-300 ease-in-out flex-col items-start shadow-main justify-center w-full gap-10 overflow-hidden bg-white max-h-0 group-[.open]:py-8 px-8 rounded-2xl group-[.open]:max-h-92 top-full">
-            <Link to = "/" className="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#">
+          <div
+            className={`absolute left-0 right-0 md:hidden z-50 transition-all duration-500 ease-in-out flex flex-col items-start shadow-lg justify-start bg-emerald-950 px-6 rounded-b-2xl top-full gap-10
+              ${menuOpen ? 'py-6 min-h-screen' : 'max-h-0 overflow-hidden'}
+            `}
+          >
+
+            <Link to="/" className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
               HOME
             </Link>
-            <Link to = '/about' className="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#">
+            <Link to='/about' className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
               ABOUT US
             </Link>
-            <Link to = '/blog' className="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#">
+            <Link to='/blog' className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
               BLOG
             </Link>
-            <Link to = '/contact' className="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#">
+            <Link to='/contact' className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
               CONTACT
             </Link>
           </div>
