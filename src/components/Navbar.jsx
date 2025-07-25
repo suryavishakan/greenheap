@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <div className='bg-emerald-950'>
       <header className="container flex flex-col mx-auto bg-emerald-950">
-        <nav className="px-4 md:px-0 relative flex flex-wrap items-center justify-between w-full bg-emerald-950 py-4 shrink-0">
+        <nav className="px-4 md:px-0 relative flex flex-wrap items-center justify-between w-full bg-emerald-950 py-5 shrink-0">
           <Link to="/">
-            <img className="h-7 md:h-10" src={logo} alt="logo" />
+            <img className="h-8 md:h-10" src={logo} alt="logo" />
           </Link>
           <div className="items-center justify-between hidden gap-12 text-slate-100 md:flex">
             <Link to="/" className="text-sm md:text-base font-bold hover:text-orange-500 hover:border-b-1 hover:border-orange-500">
