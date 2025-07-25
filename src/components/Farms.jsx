@@ -17,7 +17,7 @@ const Farms = () => {
                 <div className="max-w-xl md:max-w-3xl text-left lg:text-left ">
                         <div>
                             <p className="text-white text-4xl sm:text-6xl font-semibold tracking-tighter">
-                                Greenheap <span className="bg-clip-text bg-linear-to-tl from-yellow-200 to-amber-400 text-transparent">Cash Back Farms</span>
+                                Greenheap <span className="bg-clip-text bg-linear-to-tl from-yellow-200 to-amber-400 text-transparent"><br />Cash Back Farms</span>
                             </p>
                             <p className="max-w-72 md:max-w-xl mt-4 text-base tracking-tight text-slate-300">
                             Where freshness meets flavor in every bite. We’re passionate about delivering nutritious, responsibly sourced products that nourish your body and delight your taste buds. Join us on a journey to better eating and discover the difference that quality makes. 
