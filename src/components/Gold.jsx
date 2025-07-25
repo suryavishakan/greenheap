@@ -18,7 +18,7 @@ const Gold = () => {
                 <p className="text-white text-4xl sm:text-6xl font-semibold tracking-tighter">
                     Greenheap <span className="bg-clip-text bg-linear-to-tl from-amber-500 to-amber-300 text-transparent">Gold</span>
                 </p>
-                <p className="max-w-72 md:max-w-xl mt-4 text-base tracking-tight text-gray-100">
+                <p className="max-w-72 md:max-w-xl mt-4 text-base tracking-tight text-gray-100 text-justify">
                     Where your financial future shines bright. We specialize in secure, innovative gold investment solutions designed to help you grow and protect your wealth. Discover how our expertise, transparency, and commitment to excellence set us apart in the world of precious metals. Thank you for choosing us as your trusted investment partner!
                 </p>
                 </div>

@@ -20,7 +20,7 @@ const Foods = () => {
                             <p className="text-white text-4xl sm:text-6xl font-semibold tracking-tighter">
                                 Greenheap <span className="bg-clip-text bg-linear-to-tl from-yellow-400 to-amber-500 text-transparent">Foods</span>
                             </p>
-                            <p className="max-w-72 md:max-w-xl mt-4 text-base tracking-tight text-slate-100">
+                            <p className="max-w-72 md:max-w-xl mt-4 text-base tracking-tight text-slate-100 text-justify">
                             Where freshness meets flavor in every bite. We’re passionate about delivering nutritious, responsibly sourced products that nourish your body and delight your taste buds. Join us on a journey to better eating and discover the difference that quality makes. 
                             </p>
                         </div>

@@ -40,10 +40,10 @@ const Contact = () => {
     <section className="py-10 bg-orange-50 sm:py-16 lg:py-24" id = "contact">
       <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
-          <div className="flex flex-col justify-between lg:py-5">
+          <div className="flex flex-col justify-between lg:py-5 px-2 lg:px-0">
             <div>
               <h2 className="text-2xl font-bold text-black sm:text-4xl lg:text-5xl">Let’s build your future—together.</h2>
-              <p className="mt-4 text-gray-900 max-w-xl">
+              <p className="mt-4 text-gray-900 max-w-xl text-justify">
                 From flavorful kitchens to gold savings and fertile lands, Greenheap Enterprises is here to bring your dreams to life.
                 Reach out to begin your journey with us.
               </p>
@@ -76,8 +76,8 @@ const Contact = () => {
           <div className="lg:pl-12">
             <div className="bg-gray-50 rounded-md overflow-hidden shadow-md">
               <div className="p-6 sm:p-10">
-                <h3 className="text-3xl font-semibold text-black">Start a conversation</h3>
-                <p className="mt-4 text-base text-gray-800">
+                <h3 className="text-xl lg:text-3xl font-semibold text-black">Start a conversation</h3>
+                <p className="mt-4 text-md text-gray-800">
                   Let us know what you're interested in, and we’ll guide you to the right team.
                 </p>
 
@@ -89,7 +89,7 @@ const Contact = () => {
                   <input type="hidden" name="_next" value="https://www.cashbackfarms.com" />
 
                   <div>
-                    <label htmlFor="name" className="block text-base font-medium text-gray-900">
+                    <label htmlFor="name" className="block text-sm md:text-base font-medium text-gray-900">
                       Your name
                     </label>
                     <input
@@ -100,12 +100,12 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="Enter your full name"
-                      className="block w-full px-4 py-4 mt-2 border border-gray-200 rounded-md focus:border-blue-600 text-black"
+                      className="block w-full px-4 py-4 mt-2 border border-gray-200 rounded-md focus:border-blue-600 text-sm md:text-base text-black"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-base font-medium text-gray-900">
+                    <label htmlFor="email" className="block text-sm md:text-base font-medium text-gray-900">
                       Email address
                     </label>
                     <input
@@ -116,12 +116,12 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="Enter your email"
-                      className="block w-full px-4 py-4 mt-2 border border-gray-200 rounded-md focus:border-blue-600 text-black"
+                      className="block w-full px-4 py-4 mt-2 border border-gray-200 rounded-md focus:border-blue-600 text-sm md:text-base text-black"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-base font-medium text-gray-900">
+                    <label htmlFor="message" className="block text-sm md:text-base font-medium text-gray-900">
                       Your Message / Inquiry
                     </label>
                     <textarea
@@ -132,7 +132,7 @@ const Contact = () => {
                       value={formData.message}
                       onChange={handleChange}
                       placeholder="Enter your message"
-                      className="block w-full px-4 py-4 mt-2 border border-gray-200 rounded-md resize-y focus:border-blue-600 text-black"
+                      className="block w-full px-4 py-4 mt-2 border border-gray-200 rounded-md resize-y text-sm md:text-base focus:border-blue-600 text-black"
                     ></textarea>
                   </div>
 
