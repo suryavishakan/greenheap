@@ -1,4 +1,5 @@
 import React from 'react';
+// assets
 import foodBanner from "../assets/foodBanner.svg";
 
 const Foods = () => {
