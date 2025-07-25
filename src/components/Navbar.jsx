@@ -52,16 +52,16 @@ const Navbar = () => {
           >
 
             <Link to="/" className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
-              HOME
+              Home
             </Link>
             <Link to='/about' className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
-              ABOUT US
+              About Us
             </Link>
             <Link to='/blog' className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
-              BLOG
+              Blog
             </Link>
             <Link to='/contact' className="text-sm font-normal text-white hover:text-orange-500 cursor-pointer hover:border-b-1 hover:border-orange-500">
-              CONTACT
+              Contact
             </Link>
           </div>
         </nav>
