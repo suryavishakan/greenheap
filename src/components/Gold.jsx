@@ -1,5 +1,4 @@
 import React from 'react';
-import goldGif from "../assets/gold.gif";
 import foodBanner from "../assets/goldBanner.svg";
 
 const Gold = () => {

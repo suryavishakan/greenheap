@@ -1,5 +1,4 @@
 import React from 'react';
-import farmsGif from "../assets/farms.gif";
 import realEstateBanner from "../assets/farmsBanner.svg";
 
 const Farms = () => {

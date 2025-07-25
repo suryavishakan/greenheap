@@ -1,7 +1,6 @@
 import React from 'react'
 // components
 import Navbar from './Navbar';
-import InvestingSteps from './InvestingSteps';
 import Footer from "./Footer";
 // react-router-dom
 import { Link } from 'react-router-dom';
