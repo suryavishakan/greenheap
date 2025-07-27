@@ -8,8 +8,8 @@ import Contact from "./pages/Contact";
 import Blog from './pages/Blog';
 // blogs
 import BlogPost from "./components/BlogPost";
-import GoldBlogPost from './components/GoldBlogPost';
-import FoodsBlogPost from './components/FoodsBlogPost';
+// import GoldBlogPost from './components/GoldBlogPost';
+// import FoodsBlogPost from './components/FoodsBlogPost';
 
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
       <Route path = "about" element = {<About />} />
       <Route path = "contact" element = {<Contact />} />
       <Route path = 'blog' element = {<Blog />} />
-      <Route path = '/blog/post-1' element = {<BlogPost />} />
-      <Route path = '/blog/post-2' element = {<GoldBlogPost />} />
-      <Route path = "/blog/post-3" element = {<FoodsBlogPost />} />
+      <Route path = '/blog/:slug' element = {<BlogPost />} />
+      {/* <Route path = '/blog/post-2' element = {<GoldBlogPost />} />
+      <Route path = "/blog/post-3" element = {<FoodsBlogPost />} /> */}
     </Routes>
     </BrowserRouter>
   )
