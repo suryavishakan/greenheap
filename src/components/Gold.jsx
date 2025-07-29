@@ -10,8 +10,8 @@ const Gold = () => {
 }
  
   return (
-    <div className="px-4 sm:px-6 lg:px-8 bg-orange-50 py-10">
-        <div className="flex flex-col items-end bg-blend-overlay rounded-lg" style={backgroundStyle} id="foods">
+    <div className="px-4 sm:px-6 lg:px-8 py-10">
+        <div className="flex flex-col items-end bg-blend-overlay rounded-lg max-w-7xl mx-auto" style={backgroundStyle} id="foods">
             <div className="py-32 px-5 mr-0 lg:mr-20 self-end">
             <div className="max-w-xl md:max-w-3xl text-right lg:text-right">
                 <div>

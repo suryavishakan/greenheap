@@ -1,18 +1,33 @@
-import React from 'react';
-import video from "../assets/banner.mp4";
+// Home.jsx
+import React, { useRef, useState } from 'react';
+import video1 from "../assets/farms.mp4";
+import video2 from "../assets/food.mp4";
+import video3 from "../assets/gold.mp4";
+
+const videos = [video1, video2, video3];
 
 const Home = () => {
+  const [currentVideo, setCurrentVideo] = useState(0);
+  const videoRef = useRef(null);
+
+  const handleVideoEnd = () => {
+    setCurrentVideo((prev) => (prev + 1) % videos.length);
+  };
+
   return (
     <section className="min-h-9/10 py-24 relative overflow-hidden">
       {/* Background Video */}
       <video
+        ref={videoRef}
         autoPlay
-        loop
+        loop={false} // We handle looping manually
         muted
         playsInline
+        onEnded={handleVideoEnd}
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        key={currentVideo} // Ensures video reloads on src change
       >
-        <source src={video} type="video/mp4" />
+        <source src={videos[currentVideo]} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

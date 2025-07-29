@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className='bg-emerald-950'>
-      <header className="container flex flex-col mx-auto bg-emerald-950">
+      <header className="max-w-7xl flex flex-col mx-auto bg-emerald-950">
         <nav className="px-4 md:px-0 relative flex flex-wrap items-center justify-between w-full bg-emerald-950 py-5 shrink-0">
           <Link to="/">
             <img className="h-8 md:h-10" src={logo} alt="logo" />

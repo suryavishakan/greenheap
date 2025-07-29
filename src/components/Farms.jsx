@@ -10,8 +10,8 @@ const Farms = () => {
     }
 
   return (
-    <div className="px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col bg-blend-overlay rounded-lg" style={backgroundStyle} id = "foods">
+    <div className="px-4 sm:px-6 lg:px-8 mb-10 mt-10">
+        <div className="flex flex-col bg-blend-overlay rounded-lg max-w-7xl mx-auto" style={backgroundStyle} id = "foods">
             <div className="py-32 px-5 ml-0 lg:ml-20">
                 <div className="max-w-xl md:max-w-3xl text-left lg:text-left ">
                         <div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Stats = () => {
   return (
     <div className="px-8 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-orange-50">
-        <div className="container ms-auto grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
+        <div className="max-w-7xl mx-auto grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
             <div className="lg:col-span-4">
             <div className="lg:pe-6 xl:pe-12">
                 <p className="text-4xl md:text-6xl font-bold leading-10 text-teal-800">
