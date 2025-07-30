@@ -63,15 +63,11 @@ const Footer = () => {
 
                     <ul className="mt-6 space-y-2 md:space-y-4">
                         <li>
-                            <a href="/" title="" className="flex text-sm md:text-base text-white transition-all duration-200 hover:text-rose-100 focus:text-rose-100"> Customer Support </a>
-                        </li>
-
-                        <li>
                             <a href="/" title="" className="flex text-sm md:text-base text-white transition-all duration-200 hover:text-rose-100 focus:text-rose-100"> Terms & Conditions </a>
                         </li>
 
                         <li>
-                            <a href="/" title="" className="flex text-sm md:text-base text-white transition-all duration-200 hover:text-rose-100 focus:text-rose-100"> Privacy Policy </a>
+                            <Link to="/privacy-policy" className="flex text-sm md:text-base text-white transition-all duration-200 hover:text-rose-100 focus:text-rose-100"> Privacy Policy </Link>
                         </li>
                     </ul>
                 </div>

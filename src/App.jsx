@@ -10,6 +10,7 @@ import BlogPost from "./components/BlogPost";
 import NotFound from "./components/NotFound";
 // scroll to top
 import ScrollToTop from "./hooks/ScrollToTop";
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path = "/contact" element = {<Contact />} />
             <Route path = '/blog' element = {<Blog />} />
             <Route path = '/blog/:slug' element = {<BlogPost />} />
+            <Route path = "/privacy-policy" element = {<PrivacyPolicy />} />
             <Route path = "*" element = {<NotFound />} />
          </Routes>
         </ScrollToTop>

@@ -1,8 +1,7 @@
 // App.js
 import React from "react";
-import FoodGif from "../assets/food.gif";
-import FarmsGif from "../assets/farms.gif";
-import GoldGif from "../assets/Gold.gif";
+import FoodGif from "../assets/food.png";
+import FarmsGif from "../assets/farms.png";
 
 const cards = [
   {
@@ -25,7 +24,7 @@ const cards = [
   },
   {
     bgColor: "bg-purple-50",
-    img : GoldGif,
+    img : "https://manubhai.in/SocialMedia/post_artworks/310320211251251(4).jpg",
     tag: "Greenheap",
     tagColor: "text-purple-600",
     title: "Greenheap DigiGold",

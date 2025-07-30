@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import trusted from "../assets/trust.jpg";
 
 const tabs = [
   {
@@ -41,7 +42,7 @@ const tabs = [
       <path key="5" d="M17 19h4" />,
     ],
     image:
-      "https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&auto=format&fit=crop&w=560&h=720&q=80",
+      trusted,
   },
 ];
 

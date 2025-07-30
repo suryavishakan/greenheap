@@ -124,7 +124,7 @@ const BlogPost = () => {
             <h2 className="text-xl font-bold md:text-3xl">{blogPost.title}</h2>
           </div>
           {/* Body */}
-          <div className="prose prose-lg max-w-none mt-6">
+          <div className="prose prose-lg prose-slate max-w-none mt-10 leading-relaxed space-y-6 max-w-none mt-10 leading-relaxed space-y-4">
             {blogPost.body ? (
               <PortableText value={blogPost.body} />
             ) : (

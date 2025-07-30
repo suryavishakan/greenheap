@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import avatar from "../assets/avatar.png";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -62,7 +63,7 @@ const Contact = () => {
               <div className="flex items-center mt-6">
                 <img
                   className="w-10 h-10 rounded-full"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/contact/4/avatar.jpg"
+                  src={avatar}
                   alt="Customer Avatar"
                 />
                 <div className="ml-4">

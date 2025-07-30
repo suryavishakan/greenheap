@@ -11,6 +11,7 @@ import Tabs from "../components/Tabs";
 import Trusted from '../components/Trusted';
 import Testimonials from "../components/Testimonials";
 import Cta from "../components/Cta";
+import Faq from '../components/Faq';
 import Footer from "../components/Footer";
 
 const Homepage = () => {
@@ -23,6 +24,7 @@ const Homepage = () => {
       <Tabs />
       <Testimonials />
       <Trusted />
+      <Faq />
       <Cta />
       <Contact />
       <Footer />
