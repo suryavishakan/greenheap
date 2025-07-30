@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+// react router
+import { Link } from 'react-router-dom';
 
 const Cta = () => {
   return (
@@ -10,8 +12,8 @@ const Cta = () => {
                 <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-4xl">Want to partner with us?</h2>
                 <p className="mt-6 text-base text-gray-300">We're excited to talk to you about the requirements and business goals.</p>
                 <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                <a href="#" className="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-gray-100 hover:bg-orange-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Schedule a call</a>
-                <a href="#" className="text-sm font-semibold leading-6 text-white">Send an email</a>
+                <Link to="/contact" className="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-gray-100 hover:bg-orange-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Schedule a call</Link>
+                <Link to="/contact" className="text-sm font-semibold leading-6 text-white">Send an email</Link>
                 </div>
             </div>
             <div className="relative mt-16 h-80 lg:mt-8 lg:h-auto">
