@@ -62,7 +62,7 @@ export default function Cards() {
        <div className="w-full flex items-center flex-col gap-1 justify-center mb-16 px-4">
           <p className="text-sm sm:text-lg font-semibold text-rose-600">Our Expertise</p>
           <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center font-semibold">
-            Explore our <span className="bg-clip-text bg-linear-to-tl from-teal-600 to-emerald-800 text-transparent">Services</span> that stand out
+            Explore our Services that stand out
           </h3>
         </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
